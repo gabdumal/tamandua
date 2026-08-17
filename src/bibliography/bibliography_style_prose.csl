@@ -747,9 +747,9 @@
                     <text macro="names-bibliography" suffix=". " />
                     <text macro="title" suffix=". " />
                     <text macro="event-proceedings" />
-                    <text macro="publisher" suffix=". " />
-                    <text macro="locators" suffix=". " />
-                    <text macro="doi" suffix=". " />
+                    <text macro="publisher" />
+                    <text macro="locators" prefix=", " />
+                    <text macro="doi" prefix=". " suffix=". " />
                     <text macro="access" />
                 </else-if>
 
